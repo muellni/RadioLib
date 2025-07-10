@@ -19,6 +19,10 @@
     "frameworks": "*",
     "platforms": "*",
     "headers": "RadioLib.h",
+    "dependencies":
+    {
+        "SPI":"*"
+    },
     "build":
     {
         "libLDFMode": "chain+"
